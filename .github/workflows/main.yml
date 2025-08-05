@@ -32,7 +32,7 @@ jobs:
       - name: Install Tailscale official script
         run: |
           curl -fsSL https://tailscale.com/install.sh | sh
-          tailscale up
+           sudo tailscale up
  
       - name: Restore backup files
         run: |
